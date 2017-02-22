@@ -11,6 +11,12 @@ The goals / steps of this project are the following:
 
 DESCRIBE YOUR PIPELINE. AS PART OF THE DESCRIPTION, EXPLAIN HOW YOU MODIFIED THE DRAW_LINES() FUNCTION.
 
+
+![Alt text](solidYellowLeft_INPUTVIDEO.jpg?raw=true "Input Video")
+
+
+![Alt text](solidYellowLeft_OUTPUTVIDEO.jpg?raw=true "Output Video - With Lines Added Using Pipeline")
+
 The pipeline function consisted of 8 steps:
 
 Step1-convert image to grayscale
