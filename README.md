@@ -11,9 +11,11 @@ The goals / steps of this project are the following:
 
 DESCRIBE YOUR PIPELINE. AS PART OF THE DESCRIPTION, EXPLAIN HOW YOU MODIFIED THE DRAW_LINES() FUNCTION.
 
+The pipeline function will transform the video below:
 
 ![Alt text](solidYellowLeft_INPUTVIDEO.jpg?raw=true "Input Video")
 
+Into a video that highlights the left/right guidelines using 8 steps:
 
 ![Alt text](solidYellowLeft_OUTPUTVIDEO.jpg?raw=true "Output Video - With Lines Added Using Pipeline")
 
