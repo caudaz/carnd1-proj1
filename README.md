@@ -53,6 +53,7 @@ IDENTIFY POTENTIAL SHORTCOMINGS WITH YOUR CURRENT PIPELINE
 
 -The camera lens could make straight lines appear curvy due to optical issues.
 
+-Low light video could make it difficult to identify lines due to noise.
 
 
 SUGGEST POSSIBLE IMPROVEMENTS TO YOUR PIPELINE
@@ -62,3 +63,4 @@ SUGGEST POSSIBLE IMPROVEMENTS TO YOUR PIPELINE
 
 -Camera lens distortion can be fixed by using libraries that correct using a sensor/lens database (such as what is used in photoshop).
 
+-A noise reduction function from OpenCV could help reducing noise further (Gaussian does a bit of noise reduction by definition).
