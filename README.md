@@ -1,6 +1,6 @@
-FINDING LANE LINES ON THE ROAD
+# FINDING LANE LINES ON THE ROAD #
 
-The goals / steps of this project are the following:
+## The goals / steps of this project are the following: ##
 
 -Make a pipeline that finds lane lines on the road
 
@@ -9,7 +9,7 @@ The goals / steps of this project are the following:
 -Reflection
 
 
-DESCRIBE YOUR PIPELINE. AS PART OF THE DESCRIPTION, EXPLAIN HOW YOU MODIFIED THE DRAW_LINES() FUNCTION.
+## DESCRIBE YOUR PIPELINE. AS PART OF THE DESCRIPTION, EXPLAIN HOW YOU MODIFIED THE DRAW_LINES() FUNCTION. ##
 
 The pipeline function will transform the video below:
 
@@ -44,7 +44,7 @@ Step6-hough lines transform which uses the draw_lines function
 Step7-weighted image – combines the original image with the lines
 
 
-IDENTIFY POTENTIAL SHORTCOMINGS WITH YOUR CURRENT PIPELINE
+## IDENTIFY POTENTIAL SHORTCOMINGS WITH YOUR CURRENT PIPELINE ##
 
 
 -A very curvy road would be difficult to process, since the canny edge algorithm uses straight lines.
@@ -56,7 +56,7 @@ IDENTIFY POTENTIAL SHORTCOMINGS WITH YOUR CURRENT PIPELINE
 -Low light video could make it difficult to identify lines due to noise.
 
 
-SUGGEST POSSIBLE IMPROVEMENTS TO YOUR PIPELINE
+## SUGGEST POSSIBLE IMPROVEMENTS TO YOUR PIPELINE ##
 
 
 -Instead of using a straight line function a 2nd order curve could be used for when the car follows a curved road.
